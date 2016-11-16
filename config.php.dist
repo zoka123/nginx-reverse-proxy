@@ -1,0 +1,17 @@
+<?php
+
+/**
+* This is an example of configuration.
+* Map your containers and URLs below
+*/
+
+return [
+    [
+        'serverName' => 'site.loc www.site.loc',
+        'proxyPass'  => 'http://127.0.0.1:8080'
+    ],
+    [
+        'serverName' => 'app.loc www.app.loc',
+        'proxyPass'  => 'http://127.0.0.1:8081'
+    ],
+];

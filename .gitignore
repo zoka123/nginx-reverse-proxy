@@ -1,0 +1,7 @@
+/.idea
+/config.php
+/template.override.conf
+/logs
+!/logs/.gitkeep
+/sites
+!/sites/.gitkeep

@@ -1,0 +1,10 @@
+version: '2'
+
+services:
+  nginx:
+    image: nginx
+    ports:
+      - 80:80
+    volumes:
+      - ./sites:/etc/nginx/conf.d
+      - ./logs:/var/log/nginx
